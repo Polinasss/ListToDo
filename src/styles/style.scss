@@ -1,0 +1,68 @@
+.App {
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+
+    .container {
+        max-width: 700px;
+        width: 100%;
+        border: 1px solid rgb(152, 152, 152);
+        padding: 20px;
+        font-family: "Gill Sans", sans-serif;
+    }
+}
+
+.form {
+    background-color: #2559578b;
+    padding: 10px;
+    
+    fieldset {
+        display: flex;
+        flex-direction: column;
+
+        label {
+            margin-top: 10px;
+            width: fit-content;
+
+            input, textarea {
+                margin-left: 10px;
+                border: none;
+            }
+        }
+
+        .btn {
+            width: 70px;
+            align-self: flex-end;
+            background-color: white;
+            margin-top: 20px;
+        }
+    }
+}
+
+.list {
+    background-color: #f7c5488b;
+    display: flex;
+    flex-direction: column;
+
+    .list__item {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        padding: 5px;
+
+        .deleteBtn {
+            width: fit-content;
+            height: 30px;
+        }
+    }
+}
+
+.search {
+    background-color: #f7c54849;
+    padding: 10px;
+    text-align: center;
+
+    input {
+        width: 50%;
+    }
+}

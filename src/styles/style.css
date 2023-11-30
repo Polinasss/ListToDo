@@ -56,7 +56,6 @@
   background-color: rgba(247, 197, 72, 0.2862745098);
   padding: 10px;
   text-align: center;
-}
-.search input {
-  width: 50%;
+  display: flex;
+  justify-content: space-around;
 }/*# sourceMappingURL=style.css.map */

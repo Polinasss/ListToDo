@@ -61,8 +61,6 @@
     background-color: #f7c54849;
     padding: 10px;
     text-align: center;
-
-    input {
-        width: 50%;
-    }
+    display: flex;
+    justify-content: space-around;
 }
